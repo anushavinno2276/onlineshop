@@ -58,7 +58,7 @@ In context.xml have to configure jndi by adding below tag
 
 ````
 
-## Authors
+## Author
 
 * **Akshay Mehta** 
 
