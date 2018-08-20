@@ -20,7 +20,7 @@ public class ProductRepositoryTest extends BaseTest {
 
 	private static final String PRODUCT_1 = "Redmi Note 5 ";
 	private static final String PRODUCT_2 = "Washing Machine";
-	private static final String PRODUCT_3 = "Redmi Note 5";
+	private static final String PRODUCT_3 = "DELL";
 
 	private static Product product1;
 	private Product product2;
