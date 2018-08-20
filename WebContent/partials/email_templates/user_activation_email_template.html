@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="text-align: center">
+		<p>You're ready to go! Hey %(name),</p>
+		<br> We've finished setting up your account. Just confirm your
+		email to get started!
+
+		<form
+			action="http://localhost:8080/OnlineShop/user?action=verify&token=%(activationKey)"
+			method="post">
+
+			<button>Confirm email</button>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="text-align: center">
+		<p>Hey %(name),</p>
+		<p>
+			Discount on <b>%(productname)</b>buy before you lose it.
+		</p>
+		<div align="center">
+			<table>
+				<tr>
+					<td>%(imageURL)</td>
+					<td><del>%(cost)</del>
+						<h4 style="color: green">%(discount)% Discount</h4>
+						%(discountcost)</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<form action="http://localhost:8080/OnlineShop/login.jsp"
+			method="post">
+			<button>Shop Now</button>
+		</form>
+	</div>
+</body>
+</html>
