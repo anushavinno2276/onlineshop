@@ -36,15 +36,15 @@ id, user_id, product_id, quantity, timestamp, last_notified_time
 ````
 user_id, product_id, quantity, added_timestamp
 ````
-5.**recently_added_product**
+5.**recently_added_product** Table
 ````
 id, product_id
 ````
-6.**order_product**
+6.**order_product** Table
 ````
 id, user_id, product_id, quantity, order_timestamp
 ````
-7.**notify_product**
+7.**notify_product** Table
 ````
 id, user_id, product_id
 ````
