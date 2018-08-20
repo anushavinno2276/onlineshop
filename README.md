@@ -1,10 +1,8 @@
 # Onlineshop
 
-Monitoring the world’s espresso machines and measuring our love of coffee, in the cloud.
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See **Deployment** for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
