@@ -47,7 +47,7 @@ id, user_id, product_id, quantity, order_timestamp
 id, user_id, product_id
 ````
 
-####JNDI configaration 
+### JNDI configaration 
 
 In context.xml have to configure jndi by adding below tag
 ````
